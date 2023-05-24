@@ -1,0 +1,13 @@
+<svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.5" cx="52" cy="52" r="52" fill="url(#paint0_radial_457_4726)"/>
+<circle cx="52" cy="52" r="31" stroke="#43CEFC" stroke-width="2"/>
+<rect x="39" y="44" width="5" height="20" stroke="#43CEFC" stroke-width="2"/>
+<rect x="50" y="36" width="5" height="28" stroke="#43CEFC" stroke-width="2"/>
+<rect x="61" y="54" width="5" height="10" stroke="#43CEFC" stroke-width="2"/>
+<defs>
+<radialGradient id="paint0_radial_457_4726" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(51.8076 51.8097) rotate(71.1324) scale(51.2455 52.664)">
+<stop offset="0.00540541" stop-color="#474DFF"/>
+<stop offset="1" stop-color="#474DFF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,18 @@
+.upScroll() {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(#fff, 0.12);
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px
+      linear-gradient(180deg, rgb(79 86 105 / 35%) 0%, rgb(42 49 69 / 35%) 100%);
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 0;
+    box-shadow: inset 0 0 5px
+      linear-gradient(180deg, rgb(79 86 105 / 35%) 0%, rgb(42 49 69 / 35%) 100%);
+  }
+}

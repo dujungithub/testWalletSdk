@@ -1,0 +1,45 @@
+.fundsBox{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+
+    .close{
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 15px;
+
+      >img{
+        width: 12px;
+        height: 12px;
+
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+
+    .optBox {
+        display: flex;
+        justify-content: space-between;
+        margin: 12px 0;
+
+        .receive{
+          width: 160px;
+          height: 48px;
+          background: linear-gradient(180deg, rgb(79 86 105 / 35%) 0%, rgb(42 49 69 / 35%) 100%);
+          border-radius: 6px;
+          border: 0;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 22px;
+          color: #FFF;
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 28px;
+            margin-right: 8px;
+          }
+        }
+      }
+}

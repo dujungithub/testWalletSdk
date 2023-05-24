@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 56px);
+    padding-top: 56px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    .bgImg{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+
+        >img{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 560px;
+            display: block;
+        }
+    }
+
+    .main{
+        position: absolute;
+        top: 56px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .title {
+            color: #fff;
+            font-weight: 800;
+            font-size: 56px;
+            font-style: italic;
+            line-height: 67px;
+            margin-bottom: 32px;
+        }
+
+        .mapList {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            width: 92%;
+            padding-left: 24px;
+
+            .item{
+                width: 100%;
+                height: 90px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 6px;
+
+                >img{
+                    display: inline-block;
+                    width: 24px;
+                    height: 90px;
+                } 
+
+                .itemRight{
+                    flex: 1;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .itemTop{
+                        width: 100%;
+                        height: 47px;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+
+                        > span {
+                            position: absolute;
+                            top: 0;
+                            left: 33px;
+                            z-index: 1;
+                            color: #fff;
+                            font-weight: 700;
+                            font-size: 36px;
+                            font-style: italic;
+                            line-height: 43px;
+                        }
+
+                        .stage {
+                            position: absolute;
+                            top: -13px;
+                            left: 16px;
+                            z-index: 2;
+                        }
+                    }
+
+                    .desc {
+                        font-style: italic;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #FFF;
+                        word-break: break-word;
+                        padding-right: 32px;
+                    }
+                }           
+            }
+        }
+    }
+  }
+  

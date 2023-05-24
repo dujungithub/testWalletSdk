@@ -1,0 +1,114 @@
+.emailModal{
+    font-family: Barlow;
+    font-style: normal;
+
+    .headTitle{
+        margin-bottom: 16px;
+
+        .title{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFF;
+            display: flex;
+            align-items: center;
+        }
+
+        .subTitle{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: rgb(255 255 255 / 50%);
+        }
+    }
+
+    .loginForm{
+        width: 100%;
+
+        .sendCode{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #43CEFC;
+            cursor: pointer;
+        }
+
+        .btn{
+            width: 100%;
+            height: 44px;
+            background: linear-gradient(90deg, #2DD6FF 0.62%, #FF00D2 99.37%);
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            color: #FFFF;
+            border: none;
+            box-shadow: none;
+            margin-top: 8px;
+        }
+    }
+
+    :global{
+        .ant-modal-content{
+            padding: 16px 16px 20px;
+            background: #0D041F;
+            border: 1px solid rgb(255 255 255 / 10%);
+            border-radius: 12px;
+        }
+
+        .ant-modal-header{
+            background: #0D041F;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+
+        .ant-modal-close-x{
+            color: #fff;
+        }
+
+        .ant-form-item {
+            margin-bottom: 12px;
+        }
+        .ant-input-affix-wrapper >input.ant-input{
+            width: 100%;
+            height: 40px;
+            background:#0D041F;
+            border-color: #fff;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #FFF;
+            &::placeholder {
+                font-family: 'Barlow' !important;
+                font-style: normal !important;
+                font-weight: 400 !important;
+                font-size: 14px !important;
+                line-height: 21px !important;
+                color: rgba(255, 255, 255, 0.5) !important;
+            }
+        }
+        .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover{
+            border-color: #fff;
+        }
+
+        .ant-input-affix-wrapper {
+            border: 1px solid #313437;
+            border-radius: 6px;
+            background: #0D041F;
+        }
+
+        .ant-form-item-explain-error{
+            color: #F44328;
+            font-size: 12px;
+            line-height: 16px;
+            margin: 8px 0 12px;
+        }
+
+          .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper, .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover{
+            border-color: #F44328;
+        }
+
+    }
+}

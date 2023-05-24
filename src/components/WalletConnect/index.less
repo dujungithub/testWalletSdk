@@ -1,0 +1,65 @@
+.walletWrapper{
+    :global{
+        .ant-modal-content{
+            background:#1f2224 ;
+            border: 0;
+            border-radius: 2px;
+            box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+            padding: 16px;
+        }
+
+       .ant-modal-header{
+            background: none;
+
+            .ant-modal-title{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+            }
+       }
+
+       .ant-modal-body{
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-between;
+       }
+    }
+
+    .warapper{
+        background: linear-gradient(270deg,#1b2523 0,#161717 50%,#1b2523 100%);
+        padding: 20px 16px;
+
+        .title{
+            color: rgb(255 255 255 / 60%);
+            font-size: 12px;
+        }
+
+        .btn{
+            display: flex;
+            align-items: center;
+
+            >p{
+                cursor: pointer;
+                color:#76C8FF;
+                font-size: 19px;
+                white-space: nowrap;
+                margin-right: 40px;
+
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+
+        }
+    }
+}
+
+:global{
+    .ant-modal-mask{
+        background-color: #00000073 !important;
+    }
+}

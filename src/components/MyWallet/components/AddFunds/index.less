@@ -1,0 +1,44 @@
+.addBox {
+    display: flex;
+
+    .selectBox {
+      width: 136px;
+      display: flex;
+      flex-direction: column;
+      padding: 23.5px 24px 0;
+      border-right: 1px solid rgb(255 255 255 / 8%);
+      background: #12151F;
+
+      .btn {
+        width: 136px;
+        height: 43px;
+        color: #727F8D;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: capitalize;
+        background: transparent;
+        border: 0;
+        margin-bottom: 13.5px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+
+      .active {
+        color: #FFF;
+        background: linear-gradient(90deg, #2DD6FF 0.62%, #FF00D2 99.37%);
+        border-radius: 6px;
+      }
+    }
+  
+    :global {
+      .ant-btn[disabled] {
+        color: #B8B4B4;
+        border: 1px solid rgba(#fff, 0.12);
+        background: rgb(184 180 180 / 15%);
+        text-shadow: none;
+        box-shadow: none;
+      }
+    }
+  }
